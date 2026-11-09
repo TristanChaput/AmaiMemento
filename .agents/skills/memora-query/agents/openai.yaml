@@ -1,0 +1,4 @@
+interface:
+  display_name: "Memora Query"
+  short_description: "Query the local AmaiKnowledge memory"
+  default_prompt: "Use $memora-query to retrieve relevant context from AmaiKnowledge."
