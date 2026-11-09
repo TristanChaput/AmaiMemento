@@ -1,0 +1,3 @@
+[submodule "vendor/Memora"]
+	path = vendor/Memora
+	url = https://github.com/TristanChaput/Memora.git

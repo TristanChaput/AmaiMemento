@@ -1,0 +1,23 @@
+[project]
+name = "amai-memory"
+version = "0.1.0"
+description = "Local Memora index for the AmaiKnowledge vault"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv>=1.0",
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+amai-memory = "amai_memory.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["amai_memory*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
